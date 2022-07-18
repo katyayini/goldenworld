@@ -10,7 +10,7 @@ Users have option to sign up/log in and after logging in they can see there dash
 
 The application is deployed on Heroku.
 
-## URL of deployed application
+## Screenshot
 ![](assets/Tech-Blog.JPG)
 
 ## URL of deployed application

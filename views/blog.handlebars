@@ -1,0 +1,18 @@
+<div>
+  <h2>{{title}}</h2>
+  <p>{{content}}</p>
+  <p style="font-style: italic; font-size: 14px">Posted by {{user.name}}</p>
+
+  <p>
+  <div class="form-group">
+    <label style="font-weight: bold">Enter your comment here:</label><br />
+    <textarea style="width: 40%; margin-top: 20px; margin-bottom: 20px;" id="bgcomment"></textarea>
+  </div>
+  <button id="comment" class="btn btn-primary m-5"> Comment </button>
+  <br/><br/>
+  <p style="font-weight: bold">Recent comments:</p>
+  </p>
+  <p>{{comment}}</p>
+</div>
+
+<script src="/js/comment.js"></script>
